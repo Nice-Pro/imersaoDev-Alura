@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <script src="./main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+          Conversor de moedas
+        </h1>
+        <div class="page-logo"> <h2>Imersão</h2><h2 class="page-logo1">DEV_</h2>
+        </div>
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+    <section>
+        <div class="a">
+            <div id="valorConvertido"></div>
+            <img src="./img/real.png" alt="">
+            <img src="./img/flecha.png" alt="">
+            <img src="./img/dolar.png" alt=""><br>
+            <label for="moeda">Insira o Valor</label><br>
+            <input type="number" id="valor" size="2"><br>
+            <button type="submit" onclick="converter()">Converter</button>
+        </div>
+        <div class="b">
+            <div id="valorConvertido1"></div>
+            <img src="./img/real.png" alt="">
+            <img src="./img/flecha.png" alt="">
+            <img src="./img/euro.png" alt=""><br>
+            <label for="moeda">Insira o Valor</label><br>
+            <input type="number" id="valor1" size="2"><br>
+            <button type="submit" onclick="converter1()">Converter</button>
+        </div>
+        <div class="c">
+            <div id="valorConvertido2"></div>
+            <img src="./img/real.png" alt="">
+            <img src="./img/flecha.png" alt="">
+            <img src="./img/bitcoin.png" alt=""><br>
+            <label for="moeda">Insira o Valor</label><br>
+            <input type="number" id="valor2" size="2"><br>
+            <button type="submit" onclick="converter2()">Converter</button>
+        </div>
+    </section>
+</body>
+</html>

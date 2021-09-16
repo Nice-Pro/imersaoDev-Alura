@@ -1,0 +1,52 @@
+body{
+    background-image: url(https://lh3.googleusercontent.com/proxy/64H5n3o46Z0jNpy9N7W78QkU_uUgDOLDKCnZJVNceMyTADnUlHnpPmwpi_ZBOozwA4iKOH3qqkusIq0PgOHVYPnftAcG1ihE3_XsEjrAYMyBZZp7AAUczc5PCWJEV-S5oP73tIA);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.a,.b,.c{
+    width: 50%;
+    margin-left:15px;
+    height: 150px;
+    border-bottom: 5px solid black;
+}
+#valorConvertido,#valorConvertido1,#valorConvertido2{
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+img{
+    width: 50px;
+    height: 30px;
+}
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 30vh;
+}
+.page-title {
+    color: #000000;
+    margin: 0 0 5px;
+}
+      
+.page-logo {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.page-logo1{
+    background-color: yellow;
+}
+      
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+section{
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
